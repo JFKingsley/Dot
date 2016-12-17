@@ -1,0 +1,12 @@
+[package]
+name = "dot"
+version = "0.1.0"
+authors = ["Jonathan Kingsley <me@jfkingsley.co.uk>"]
+
+[dependencies]
+clap = "2.19.2"
+toml = "0.2.1"
+
+[[bin]]
+name = "dot"
+path = "src/main.rs"
